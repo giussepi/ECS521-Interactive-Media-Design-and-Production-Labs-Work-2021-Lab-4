@@ -96,35 +96,36 @@ The sessionStorage object is equal to the localStorage object, except that it st
 1. Open `html/local_vs_session.html` in browser (chrome/firefox/ie).
 2. Open `js/local_vs_session.js` in text editor.
 3. Add following function for localStorage. Close and Open tab/window multiple times, while clicking the button, and notice counter value.
+
    ```js
-function clickCounter() {
-    if (typeof(Storage) !== "undefined") {
-        if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount)+1;
-        } else {
-            localStorage.clickcount = 1;
-        }
-        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-}
+   function clickCounter() {
+       if (typeof(Storage) !== "undefined") {
+           if (localStorage.clickcount) {
+               localStorage.clickcount = Number(localStorage.clickcount)+1;
+           } else {
+               localStorage.clickcount = 1;
+           }
+           document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+       } else {
+           document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+       }
+   }
    ```
 
 4. Comment function for localStorage and add following function for sessionStorage. Close and Open tab/window multiple times, while clicking the button, and notice counter value.
    ```js
-function clickCounter() {
-    if (typeof(Storage) !== "undefined") {
-        if (sessionStorage.clickcount) {
-            sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
-        } else {
-            sessionStorage.clickcount = 1;
-        }
-        document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }
-}
+   function clickCounter() {
+       if (typeof(Storage) !== "undefined") {
+           if (sessionStorage.clickcount) {
+               sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+           } else {
+               sessionStorage.clickcount = 1;
+           }
+           document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+       } else {
+           document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+       }
+   }
    ```
 
 ## D. To Do Questions
