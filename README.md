@@ -51,7 +51,7 @@ Write a program to count the vowels in a text.
    let result = document.getElementById('display_result');
    ```
 8. Set a new value to the previous element, reflecting the number of vowels present in the input text.
-   ```
+   ```js
    result.innerHTML = 'Your input contains ' + count + ' vowels';
    // or
    result.innerHTML = `Your input contains ${count} vowels`;
