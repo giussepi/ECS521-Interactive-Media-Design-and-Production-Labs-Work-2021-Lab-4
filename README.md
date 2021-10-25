@@ -129,6 +129,8 @@ The sessionStorage object is equal to the localStorage object, except that it st
    ```
 
 ## D. To Do Questions
+**IMPORTANT NOTE**: Write your answers only in the sections indicated by the comment lines. Also, make sure that each answer works independently from the others. Verify this by commenting and uncommenting your answers to see if they still work. Not doing this will make you lose points.
+
 Open `html/todo.html` and `js/todo.js` in your web browser and text editor, respectively.
 
 1. Following the first exercise, given an input text, count the occurrences of each vowel independently. So you show something like this: `Your input contains a:6, e:1, i:2, o:3, u:2`.
