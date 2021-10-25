@@ -149,6 +149,7 @@ The Submission Link is available under ASSESMENT INFORMATION/RESOURCES Section o
 ### General Instruction:
 - Assignments must be submitted in a .zip package or alike ( .7z .bdoc .cdoc .ddoc .gtar .tgz .gz .gzip .hqx .rar .sit .tar .zip). Code submitted in other formats will not be accepted. Corrupt or otherwise unreadable files will not be accepted.
 - Make sure to compress/zip the whole folder `ECS521-Interactive-Media-Design-and-Production-Labs-Work-2021-Lab-4-main` so all your work is included in the submission.
+- Rename the compressed/zipped folder using your full name e.g.: `Giussepi Lopez.zip`
 
 ### Submission Checklist
 - [x] Has your file been saved in a zip package?
